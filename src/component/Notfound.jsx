@@ -6,7 +6,7 @@ const Notfound = () => {
      </div>
     <h3 className="text-white text-2xl font-semibold">Contact Not Found</h3>
     </div>
-  )
-}
+  );
+};
 
 export default Notfound;
