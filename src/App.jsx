@@ -23,7 +23,7 @@ const App = () => {
 
     const getContants = async () => {
       try {
-          const contactsRef = collection(db, "Contacts");
+          const contactsRef = collection(db, "contacts");
           
 
           onSnapshot(contactsRef, (snapshot) => {
@@ -47,7 +47,7 @@ const App = () => {
   const  filterContact  = (e) => {
     const value = e.target.value; 
 
-    const contactsRef = collection(db, "Contacts");
+    const contactsRef = collection(db, "contacts");
     onSnapshot(contactsRef, (snapshot) => {
       const contactLists = snapshot.docs.map((doc) => {
         return{
