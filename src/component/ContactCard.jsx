@@ -13,7 +13,7 @@ const ContactCard = ({contact}) => {
   const {isOpen, onOpen, onClose} = useDisclouse();
 
 
-  const deleteContact = (id) =>{
+  const deleteContact = async (id) =>{
     try{
         await deleteDoc(doc(db, "Contacts", id));
         toast.success("Contact Delected Successfully")

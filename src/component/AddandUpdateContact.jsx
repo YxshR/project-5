@@ -6,7 +6,6 @@ import { toast } from "react-toastify";
 import * as Yup from yup;
 
 
-
 const contactSchemaValidation = Yup.object().shape({
     name: Yup.string().required("Name is Required"),
     email: Yup.string().email("Invalide Email").required("Email is Required"),
