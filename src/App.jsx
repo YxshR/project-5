@@ -89,7 +89,7 @@ const App = () => {
         <div className="mt-4 gap-3 flex flex-col" >
           { contacts.length <= 0 ? ( <Notfound /> ) :
           contacts.map((contact) => (
-            <ContactCard key={contact.id} contact={contact} /> 
+            <ContactCard key={contact.id} contact={contact} />
           ))
           }</div>
       </div>
