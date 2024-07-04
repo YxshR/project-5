@@ -94,9 +94,9 @@ const App = () => {
           }</div>
       </div>
           <AddandUpdateContact onClose={onClose} isOpen={isOpen}/>
-          <ToastContainer position="buttom-center"/>
+          <ToastContainer position="bottom-center"/>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
