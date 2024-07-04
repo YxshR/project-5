@@ -1,7 +1,8 @@
 const Notfound = () => {
   return (
-    <div><img src="/images/Contact.png" />
-    <h2>Contact Not Found</h2>
+    <div className="flex">
+      <img src="/images/Contact.png" />
+    <h3 className="text-white text-2xl font-semibold">Contact Not Found</h3>
     </div>
   )
 }
